@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang=en>
+   <meta charset=UTF-8>
+   <meta http-equiv=X-UA-Compatible content="IE=edge">
+   <title>YunPRC</title>
+   <link rel=stylesheet href="style.css">
+   <head>
+      <style>
+         ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+         overflow: hidden;
+         background-color: #000;
+         }
+         li {
+         float: left;
+         border-right:1px solid #333;
+         }
+         li:last-child {
+         border-right: none;
+         }
+         li a {
+         display: block;
+         color: white;
+         text-align: center;
+         padding: 14px 16px;
+         text-decoration: none;
+         }
+         li a:hover:not(.active) {
+         color: green;
+         }
+         .active {
+         background-color: #4CAF50;
+         }
+      </style>
+   </head>
+   <body>
+      <div class=wrap id=wrap>
+         <div class=wrapper>
+            <div class=header>
+               <div class="head clearfix">
+                  <div class=logo_box>
+                     <h1 class=hidden>YunPRC</h1>
+                     <a class=logo_link><img src="logo_y.png"></a>
+                  </div>
+                  <div class=nav_box id=nav_box>
+                     <ul>
+                        <li><a href='index.html'>Yun Home</a></li>
+                        <li><a class="active">Code Arena</a></li>
+                        <li><a href='me.html'>Mind Expanding</a></li>
+                        <li><a href='aboutus.html'>About Us</a></li>
+                        <!-- <li style="float:left"><a href="#about">English</a></li> -->
+                     </ul>
+                  </div>
+               </div>
+            </div>
+
+            <div class=page_wp id=page_wp>
+               <div class="page page_2">
+                  <div class="txt_box scale_box">
+                     <h2>The Arena to Share Your Creativity</h2>
+                      <p class=txt_brief>
+                        <br/>
+                        <br/>
+                  </div>
+               </div>
+
+               <div class="star_wp scale_box" id=star_wp>
+                  <span class=star_bg></span> 
+                  <span class=star_box></span>
+               </div>
+               <canvas id=canvas></canvas>
+            </div>
+
+            <div class=footer>
+               <div class=foot>
+                  <p>© 2017-2018 YunPRC
+               </div>
+            </div>
+
+         </div>
+      </div>
+      <script src="vendors.js"></script>
+      <script src="index.js"></script>
+      <!--[if IE 6]>
+      <script type="text/javascript" src="http://static.webgame.kanimg.com/com/DD_PNG_min.js"></script>
+      <script type="text/javascript">
+         var links=document.getElementsByTagName("a");
+         for(var i=0,l=links.length;i<l;i++){
+         	links[i].setAttribute("hideFocus",true);
+         }
+      </script>
+      <![endif]-->
+   </body>
+</html>
