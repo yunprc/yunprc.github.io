@@ -324,6 +324,7 @@ img {
 	width: 1740px;
 	height: 1356px;
 	margin: -678px 0 0 -870px;
+	background: url(star.png) center center no-repeat;
 	transform-origin: center center;
 	-webkit-transform-origin: center center
 }
